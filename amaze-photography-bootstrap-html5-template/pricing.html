@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+
+  <section class="pricing-table">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3">
+          <div class="pricing-item">
+            <h3>Basic</h3>
+            <div class="price">From &#8377;10,000</div>
+            <ul>
+              <li>Static website content (up to 5 pages)</li>
+              <li>No ongoing maintenance or support</li>
+              <li>Contact form integration</li>
+              <li>Standard hosting (shared server)</li>
+              <li>Basic responsive design</li>
+              <li>Delivery 7 days</li>
+            </ul>
+            <p>Examples: Portfolio website, landing page, simple brochure website</p>
+            <button onclick="triggerSmoothScroll()">Contact Now</button>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="pricing-item">
+            <h3>Standard</h3>
+            <div class="price">From &#8377;35,000</div>
+            <ul>
+              <li>Dynamic website content </li>
+              <li>Custom responsive design</li>
+              <li>Blog setup and integration</li>
+              <li>E-commerce functionality (basic)</li>
+              <li>Basic SEO optimization</li>
+              <li>Delivery 15 days</li>
+            </ul>
+            <p>Examples: Small business website, online store (limited products), informational website</p>
+            <button onclick="triggerSmoothScroll()">Contact Now</button>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="pricing-item">
+            <h3>Advanced</h3>
+            <div class="price">From &#8377;70,000</div>
+            <ul>
+              <li>Custom web application development</li>
+              <li>Advanced e-commerce features (unlimited products, payment gateway integration)</li>
+              <li>Discount on cloud and devops services</li>
+              <li>Free cloud(aws,azure,gcp) server hosting setup</li>
+              <li>Ongoing maintenance, support, and updates</li>
+              <li>Delivery 45-60 days</li>
+            </ul>
+            <p>Examples: Large e-commerce platform, complex web application, enterprise website, custom business solution</p>
+            <button onclick="window.location.href='contact.html'">Contact Now</button>
+          </div>
+        </div>
+        <div class="col-md-3">
+        <div class="pricing-item">
+              <h3>Maintenance and support</h3>
+              <div class="price">From &#8377;10,000/m</div>
+              <ul>
+                <li>Adding features</li>
+                <li>Bug fix</li>
+                <li>Fix broken links</li>
+                <li>On call assistance</li>
+                <li>Discount on cloud and devops services</li>
+                <li>Note:No major changes</li>
+              </ul>
+              <p>Examples: Small business website, online store (limited products), informational website</p>
+              <button onclick="redirectToContact()">Contact Now</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="pricing.js"></script>
+</body>
+</html>
