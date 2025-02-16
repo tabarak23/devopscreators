@@ -1,0 +1,47 @@
+/* reviews.css */
+
+#reviews {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.section-title h6 {
+    color: #777;
+    margin-top: 10px;
+}
+
+.review-box {
+    background-color: #eee; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Space between boxes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.review-box h3 {
+    font-weight: bold; /* Dark and bold name */
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.review-box p {
+    color: #555; /* Darker text color */
+    line-height: 1.6;
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 768px) {
+    .review-box {
+        margin-bottom: 30px;
+    }
+}
